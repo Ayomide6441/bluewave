@@ -146,7 +146,7 @@ td{
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     top: 0;
     left: 0;
     background-color: #fff;
@@ -250,4 +250,8 @@ h6,
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
+}
+
+.test1.row div{
+    border: 1px solid red;
 }
