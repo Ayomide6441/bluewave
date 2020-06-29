@@ -1,0 +1,23 @@
+/*navbar*/
+@media (max-width: 913px){
+	.input-group{
+		display: none;
+	}
+	.nav_li{
+		float: right;
+	}
+	.nav1{
+    	display: grid;
+    	grid-template-columns: 1fr 1fr;
+	}
+	#mymarkets{
+		display: none;
+	}
+	header{
+    	background: none;
+    	padding: 0px 0px;
+	}
+	.caro{
+		width: 100%;
+	}
+}
